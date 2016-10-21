@@ -4,9 +4,9 @@ var React = require("react");
 
 var InputElement = React.createClass({
     defaultCharsRules: {
-        "9": "[0-9]",
+        "9": "[0-9۰-۹]",
         "a": "[A-Za-z]",
-        "*": "[A-Za-z0-9]"
+        "*": "[A-Za-z0-9۰-۹]"
     },
     defaultMaskChar: "_",
     lastCaretPos: null,
